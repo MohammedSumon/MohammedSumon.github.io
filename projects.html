@@ -10,18 +10,19 @@
     <!-- Custom CSS -->
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/social-buttons-3.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:700,400italic,400' rel='stylesheet' type='text/css'>
     <script src="Scripts/lib/jquery.min.js"></script>
 
 </head>
-<body id="projecpage">
+<body>
     <!--Navigation Bar Section-->
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-default" >
+        <a href="index.html"><img class="center-block img-responsive img-rounded" src="images/logo.jpg" /></a>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
-                        <li><img src="images/logo.jpg" /></li>
                         <li><a class="glyphicon glyphicon-home" href="index.html">Home</a></li>
                         <li><a class="glyphicon glyphicon-plus" href="about.html">About Me</a></li>
                         <li><a class="glyphicon glyphicon-phone" href="contact.html">Contact Me</a></li>
@@ -34,64 +35,66 @@
         </div>
     </nav>
 
-    <!--section Header for Projects-->
-    <div id="section_header">
-        <h2>My <span>Projects</span> </h2>
-    </div>
-    <!--Projects section split into columns-->
-    <div id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 service">
-                    <h3>Portfolio 1</h3>
-                    <p>This space is reserved for details about Project 1</p>
-                    <a href="https://github.com/MohammedSumon/Project1"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
-                   
-                </div>
-                <div class="col-lg-4 service">
-                    <h3>Portfolio 2</h3>
-                    <p>This space is reserved for details about Project 2</p>
-                    <a href="https://github.com/MohammedSumon/Project2"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
-                </div>
-                <div class="col-lg-4 service">
-                    <h3>Portfolio 3</h3>
-                    <p>This space is reserved for details about Project 3</p>
-                    <a href="https://github.com/MohammedSumon/Project3"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
+    <div class="container" id="projectsPg">
+        <!--section Header for Projects-->
+        <div id="section_header">
+            <h2>My <span>Projects</span> </h2>
+        </div>
+        <!--Projects section split into columns-->
+        <div id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 service">
+                        <h3>Portfolio 1</h3>
+                        <p>This space is reserved for details about Project 1</p>
+                        <a href="https://github.com/MohammedSumon/Project1"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
+
+                    </div>
+                    <div class="col-lg-4 service">
+                        <h3>Portfolio 2</h3>
+                        <p>This space is reserved for details about Project 2</p>
+                        <a href="https://github.com/MohammedSumon/Project2"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
+                    </div>
+                    <div class="col-lg-4 service">
+                        <h3>Portfolio 3</h3>
+                        <p>This space is reserved for details about Project 3</p>
+                        <a href="https://github.com/MohammedSumon/Project3"><img src="images/projPic.jpg" class="img-responsive" alt=" "></a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
     <!-- Footer including keep connected panel-->
-    <div id="footerwrap">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7"> <span class="copyright">Copyright &copy; 2015 Mohammed Sumon- Comp-308 </span> </div>
-                <div class="col-md-5">
-                    
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <img src="images/twitter.png" />
-                                </a>
-                                <a href="">
-                                    <img src="images/pint.png" />
-                                </a>
-                                <a href=""><img src="images/fb.png" /></a>
-                                <a href="">
-                                    <img src="images/twitter.png" />
-                                </a>
-                                <a href="">
-                                    <img src="images/skype.png" />
-                                </a>
-                                <a href="">
-                                    <img src="images/blog.png" />
-                                </a>
-                            </li>
-                        </ul>
-                  
-                </div>
-            </div>
+    <!--This is the keep connected section-->
+    <div id="socialNetwork" class="center-block">
+        <!--Social Media section-->
+        <div align="center" id="connect">
+            <h2><span>Keep Connected</span> with me!</h2>
+        </div>
+        <div align="center">
+            <a href="http://pinterest.com">
+                <img src="images/pint.png" />
+            </a>
+            <a href="https://www.facebook.com/mo.sumon.7">
+                <img src="images/fb.png" />
+            </a>
+            <a href="https://twitter.com/SumonM/">
+                <img src="images/twitter.png" />
+            </a>
+            <a href="http://skype.com">
+                <img src="images/skype.png" />
+            </a>
+            <a href="http://blogspot.com">
+                <img src="images/blog.png" />
+            </a>
+        </div>
+    </div>
+    </div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div>
+            <span>Copyright &copy; 2015 Mohammed Sumon's Website</span>
         </div>
     </div>
     <!-- Bootstrap core JavaScript -->

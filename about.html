@@ -10,17 +10,18 @@
     <!-- Custom CSS -->
     <link href="css/app.css" rel="stylesheet" />
     <link href="css/social-buttons-3.css" rel="stylesheet" />
+    <link href='http://fonts.googleapis.com/css?family=Amaranth:700,400italic,400' rel='stylesheet' type='text/css'>
     <script src="Scripts/lib/jquery.min.js"></script>
 </head>
-<body id="aboutpage">
+<body>
     <!--Navigation Bar-->
     <nav class="navbar navbar-default">
+        <a href="index.html"><img class="center-block img-responsive img-rounded" src="images/logo.jpg" /></a>
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
                 <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav navbar">
-                        <li><img src="images/logo.jpg" /></li>
+                    <ul class="nav navbar-nav">
                         <li><a class="glyphicon glyphicon-home" href="index.html">Home</a></li>
                         <li class="active"><a class="glyphicon glyphicon-plus" href="#">About Me</a></li>
                         <li><a class="glyphicon glyphicon-phone" href="contact.html">Contact Me</a></li>
@@ -32,78 +33,59 @@
             </div>
         </div>
     </nav>
-    <!--Keep Connected Panel-->
-    <div class="row text-center">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/twitter.png" />
-                </a>
-                <a href="">
-                    <img src="images/pint.png" />
-                </a>
-                <a href=""><img src="images/fb.png" /></a>
-                <a href="">
-                    <img src="images/twitter.png" />
-                </a>
-                <a href="">
-                    <img src="images/skype.png" />
-                </a>
-                <a href="">
-                    <img src="images/blog.png" />
-                </a>
-            </li>
-        </ul>
-    </div>
-    <!--About me Section-->
-    <div id="about_section_1">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6 ">
-                    <h3><p><span>About me</span></p></h3>
-                    <p>My name is Mohammed and I am currently enrolled as a Software Engineering Technology student at Centennial College. I am currently completing my third year in the program and have acquired the necessary skills and tools to help you <span>make your software/web designs dreams come true!!</span></p>
-                </div>
-                <div class="col-md-3 col-md-offset-3"> <img src="images/about2.jpg" class="img-responsive img-circle" alt=" "></div>
-            </div>
+    <div class="container" id="aboutPg">
+       
+        <!--Section Headers-->
+        <div id="section_header">
+            <h2>All <span>About</span> Me!</h2>
         </div>
-    </div>
-
-    <!--Keep Connected Panel Bottom-->
-    <div class="row text-center">
-        <ul>
-            <li>
-                <a href="#">
-                    <img src="images/twitter.png" />
-                </a>
-                <a href="">
-                    <img src="images/pint.png" />
-                </a>
-                <a href=""><img src="images/fb.png" /></a>
-                <a href="">
-                    <img src="images/twitter.png" />
-                </a>
-                <a href="">
-                    <img src="images/skype.png" />
-                </a>
-                <a href="">
-                    <img src="images/blog.png" />
-                </a>
-            </li>
-        </ul>
-    </div>
-        <!-- Footer -->
-        <div id="footerwrap">
+        <!--About me Section-->
+        <div id="about_section_1">
             <div class="container">
                 <div class="row">
-                    <div>
-                        <span class="copyright">Copyright &copy; 2015 Mohammed Sumon's Website</span>
+                    <div class="col-md-5 center-x center-y">
+                        <p>My name is Mohammed and I am currently enrolled as a Software Engineering Technology student at Centennial College. I am currently completing my third year in the program and have acquired the necessary skills and tools to help you <span>make your software/web designs dreams come true!!</span></p>
                     </div>
+                    <div class="col-md-3 col-md-offset-1"> <img src="images/about2.jpg" class="img-responsive img-circle" alt=" "></div>
                 </div>
             </div>
         </div>
-        <!-- Bootstrap core JavaScript -->
-        <script src="Scripts/lib/bootstrap.js"></script>
-        <script src="Scripts/lib/bootstrap.min.js"></script>
-        <script src="Scripts/lib/app.js"></script>
+
+    <!--This is the keep connected section-->
+    <div id="socialNetwork" class="center-block">
+        <!--Social Media section-->
+        <div align="center" id="connect">
+            <h2><span>Keep Connected</span> with me!</h2>
+        </div>
+        <div align="center">
+            <a href="http://pinterest.com">
+                <img src="images/pint.png" />
+            </a>
+            <a href="https://www.facebook.com/mo.sumon.7">
+                <img src="images/fb.png" />
+            </a>
+            <a href="https://twitter.com/SumonM/">
+                <img src="images/twitter.png" />
+            </a>
+            <a href="http://skype.com">
+                <img src="images/skype.png" />
+            </a>
+            <a href="http://blogspot.com">
+                <img src="images/blog.png" />
+            </a>
+        </div>
+    </div>
+</div>
+
+    <!-- Footer -->
+    <div id="footer">
+        <div>
+            <span>Copyright &copy; 2015 Mohammed Sumon's Website</span>
+        </div>
+    </div>
+    <!-- Bootstrap core JavaScript -->
+    <script src="Scripts/lib/bootstrap.js"></script>
+    <script src="Scripts/lib/bootstrap.min.js"></script>
+    <script src="Scripts/lib/app.js"></script>
 </body>
 </html>
